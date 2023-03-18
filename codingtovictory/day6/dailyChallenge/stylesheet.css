@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .square {
+    float: left;
+    width: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .row {
+    clear: both;
+  }
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    list-style-type: upper-roman;
+    font-size: 25px;
+    font-weight: 200;
+}
