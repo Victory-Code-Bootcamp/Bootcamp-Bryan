@@ -1,0 +1,48 @@
+* {
+    border: 5px double;
+    margin: 0.5rem;
+    padding: 1rem;
+
+  }
+
+header {
+    background-color: turquoise;
+}
+
+#navigation {
+    background-color: orange;
+
+}
+  
+  #middle {
+ 
+    display: flex;
+
+  }
+
+  .column {
+
+    width: 50%;
+
+  }
+
+  section {
+    background-color: purple;
+  }
+
+  article {
+    background-color: yellow;
+
+  }
+
+  aside {
+    background-color: red;
+  }
+
+
+
+  footer {
+    background-color: brown;
+
+  }
+
