@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
+}
