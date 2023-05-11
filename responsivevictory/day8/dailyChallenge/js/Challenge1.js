@@ -28,6 +28,5 @@ function Challenge4() {
   let stringFind = prompt(
     'Max, enter what you need and I\'ll tell you if it contains the word "JavaScript"'
   );
-
   alert(stringFind.includes("JavaScript"));
 }
