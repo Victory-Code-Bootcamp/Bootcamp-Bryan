@@ -7,6 +7,14 @@ router.get("/", function (req, res, next) {
   res.render("index", { books: bookObject.books });
 });
 
+router.post("/delete/:Id", function (req, res, next) {
+  let newBookList = bookObject.books.filter(
+    (book) => book.isbn !== req.params.Id
+  );
+  bookObject.books = newBookList;
+  res.redirect("/books");
+});
+
 router.get("/new", function (req, res, next) {
   res.render("new");
 });

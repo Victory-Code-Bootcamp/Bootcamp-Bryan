@@ -20,8 +20,12 @@ block content
       h2 Book List
       each book in books
         article
-          h3= book.title
+          li
+            a(href=`/books/edit/${book.isbn}`)= book.title
           p= book.author
-
+          form(action=`/books/delete/${book.isbn}` method=`post`)
+            button(type='submit') Delete
+          br
+          br
     footer
       p Copyright © 2023 My Express App
