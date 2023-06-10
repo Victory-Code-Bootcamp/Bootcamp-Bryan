@@ -18,6 +18,10 @@ const Challenge2 = () => {
   oddEven(num1);
 };
 
-const Challenge3 = () => {
-  const calculateTotal = () => {};
+const calculateTotal = (price, taxRate) => {
+  let taxAmount = price * taxRate;
+  let total = `${(taxAmount + price).toFixed(2)}`;
+  return total;
 };
+
+console.log(calculateTotal(20, 0.1));
